@@ -15,7 +15,7 @@ module bh1750_i2c(
 	output				o_tick_done;
 	
 	
-	//STATE MACHINES
+	//STATE MACHINE
 	parameter			s_power_down		= 0;
 	parameter			s_power_on			= 1;
 	parameter			s_reg_reset			= 2;
